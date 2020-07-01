@@ -78,8 +78,10 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.protfolio-top{
+.protfolio-content{
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
  h2{
@@ -87,12 +89,12 @@ section{
     font-weight: 500;
 }
 
-.protfolio-top img{
-    margin-top:50px;
-    width: 30%;
+.protfolio-content img{
+    margin-top:40px;
+    width: 25%;
     margin-left: 25px;
 }
-.protfolio-top img:first-child{
+.protfolio-content img:first-child{
     
     margin-left: 0px;
 }
