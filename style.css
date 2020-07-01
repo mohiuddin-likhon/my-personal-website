@@ -142,9 +142,133 @@ section{
 }
 /*Client Section Css End*/
 
+/* Footer Top CSS Start*/
+.footer-top-area{
+    height: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
+    background-color: #ffdede36;
+}
+.footer-boxs{
+    width: 80%;
+    margin: auto;
+
+}
+.single-footer-box{
+    width: 27%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+   
+
+    
+}
+.single-footer-box:first-child{
+    margin-left: 0px;
+}
+
+.single-footer-box h3{
+    padding-left: 10px;
+    
+    color: #4b4b4b;
+    font-weight: 600;
+}
+.single-footer-box p{
+    padding-left: 10px;
+    padding-bottom: 2px;
+    color: dimgray;
+    font-size: 15px;
+
+}
+/*social  css start*/
+.socila-link{
+    padding-left: 10px;
+}
+.fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+/* Social Css End*/ 
+#border-left-1{
+    height:  100%;
+    border-left: 2px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+    opacity: 0.6;
+}
+
+#border-left-2{
+    border-left: 2px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+    opacity: 0.6;
+}
+
+#border-left-3{
+    border-left: 2px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+    opacity: 0.6;
+}
+
+
+.single-footer-box ul{
+    padding-left: 0;
+    list-style: none;
+
+}
+.single-footer-box ul li{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.single-footer-box ul li a{
+    font-size: 16px;
+    line-height: 10px;
+    text-decoration: none;
+    color: dimgray;
+}
+.single-footer-box ul li a:hover{
+   color: blueviolet;
+}
+
+
 /*Footer  Section Css Start*/
+.copyright-footer{
+    display: block;
+}
 footer p{
     text-align: center;
     font-size: 12px;
+    color: #595959;
 }
 /*Footer  Section Css End*/
